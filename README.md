@@ -4,7 +4,7 @@
 -------------------------------------------------------------------------------
 -->
 <p align="center">
-  <img src="https://path.to/your/project-banner.png" alt="币安慈善项目横幅" width="80%">
+  <img src="币安慈善.jpg" alt="币安慈善项目徽标" width="80%">
 </p>
 
 <div align="center">
