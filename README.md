@@ -38,12 +38,12 @@
 
 ## 🖼️ 项目概述
 
-币安慈善（Binance Charity Token, BCT）是一个基于币安智能链（BSC）发行的革命性 DeFi 生态系统，通过先进的交易工具和去中心化慈善相结合，创造了一个“交易赋能工具，工具驱动慈善”的可持续闭环生态。
+币安慈善（Binance Charity Token, 币安慈善）是一个基于币安智能链（BSC）发行的革命性 DeFi 生态系统，通过先进的交易工具和去中心化慈善相结合，创造了一个“交易赋能工具，工具驱动慈善”的可持续闭环生态。
 
 > **核心理念**: 通过提供实用的交易分析工具吸引用户，用户的每一笔交易都会通过智能合约自动产生慈善捐赠，让善行成为交易的自然结果。
 
 <p align="center">
-  <img src="https://path.to/bct-ecosystem-demo.gif" alt="BCT生态系统演示" width="80%">
+  <img src="https://path.to/bct-ecosystem-demo.gif" alt="币安慈善生态系统演示" width="80%">
 </p>
 
 ---
@@ -75,7 +75,7 @@
 ### 2. 自动捐赠机制
 
 通过智能合约实现的精密价值循环：
-1. 💰 **交易即捐赠**: 每一笔 BCT 买卖或转账都会触发合约税收机制
+1. 💰 **交易即捐赠**: 每一笔 币安慈善 买卖或转账都会触发合约税收机制
 2. 🎯 **50% 收益注入慈善池**: 项目总手续费收入的 50% 通过智能合约实时、自动转入由 CZ 及币安慈善团队共同监管的多重签名钱包
 3. 📢 **善款拨付与公示**: 慈善池资金定期拨付给经过 Binance Charity 官方平台审核的全球性公益项目，所有记录链上和官网双重公示
 
@@ -126,7 +126,7 @@
 
 ```mermaid
 graph TB
-    A[用户交易 BCT]
+    A[用户交易 币安慈善]
     --> B{智能合约 12% 税收};
     B --> C[5% 慈善捐赠];
     B --> D[3% 自动流动性];
@@ -166,12 +166,12 @@ graph TB
 - 初始流动性 100% 销毁，彻底根除 Rug Pull 风险
 
 **季度性回购与燃烧**
-- 每季度使用运营利润 20% 从二级市场回购 BCT
+- 每季度使用运营利润 20% 从二级市场回购 币安慈善
 - 回购代币发送至黑洞地址销毁
 - 创造持续通缩压力，提升代币内在价值
 
 **工具效用价值**
-- BCT 是核心 DApp 的使用燃料，创造实际需求
+- 币安慈善 是核心 DApp 的使用燃料，创造实际需求
 
 ---
 
@@ -182,7 +182,7 @@ graph TB
 **核心任务**: 产品上线与市场验证
 
 - ✅ 完成警报 DApp 核心功能开发与审计
-- ✅ 在 PancakeSwap 上线 BCT/BNB 交易对，永久锁定初始 LP
+- ✅ 在 PancakeSwap 上线 币安慈善/BNB 交易对，永久锁定初始 LP
 - ✅ 官网集成 V1 版链上分析平台
 - ✅ 启动社区建设，发布白皮书
 
@@ -200,7 +200,7 @@ graph TB
 **核心任务**: 建立竞争壁垒，启动去中心化治理
 
 - 📈 警报 DApp 集成更多 DEX，探索 zk 生态桥接
-- 📈 发布 DAO 治理模块 Beta 版，BCT 持有者可投票慈善项目
+- 📈 发布 DAO 治理模块 Beta 版，币安慈善 持有者可投票慈善项目
 - 📈 执行首次季度性回购燃烧
 - 📈 与全球性 NGOs 建立合作，推出 NFT 捐赠凭证
 
@@ -210,7 +210,7 @@ graph TB
 
 - 🚀 将项目金库、合约升级权限完全移交 DAO
 - 🚀 探索主流中心化交易所(CEX)上市
-- 🚀 将 BCT 生态扩展到线下慈善活动支持
+- 🚀 将 币安慈善 生态扩展到线下慈善活动支持
 - 🚀 建立去中心化慈善项目孵化平台
 
 ```mermaid
@@ -306,7 +306,7 @@ DATABASE_URL=postgresql://user:password@localhost:5432/bct
 ### REST API 端点
 
 #### 代币信息
-- `GET /api/token/info` - 获取 BCT 代币基本信息
+- `GET /api/token/info` - 获取 币安慈善 代币基本信息
 - `GET /api/token/price` - 获取实时价格
 - `GET /api/token/holders` - 获取持币者分布
 
@@ -413,7 +413,7 @@ ws.send(JSON.stringify({
 
 ### 交易平台
 
-- 🥞 **PancakeSwap**: [BCT/BNB 交易对](https://pancakeswap.finance/swap?inputCurrency=BNB&outputCurrency=0xcb89b888d3d38b4c5ce6fe4562bd5699a4488888)
+- 🥞 **PancakeSwap**: [币安慈善/BNB 交易对](https://pancakeswap.finance/swap?inputCurrency=BNB&outputCurrency=0xcb89b888d3d38b4c5ce6fe4562bd5699a4488888)
 - 📊 **DexScreener**: [实时行情](https://dexscreener.com/bsc/0xcb89b888d3d38b4c5ce6fe4562bd5699a4488888)
 - 🔍 **BSCScan**: [链上查询](https://bscscan.com/token/0xcb89b888d3d38b4c5ce6fe4562bd5699a4488888)
 
@@ -421,14 +421,14 @@ ws.send(JSON.stringify({
 
 ## ❓ 常见问题
 
-### Q: BCT 代币如何产生慈善捐赠？
+### Q: 币安慈善 代币如何产生慈善捐赠？
 
-**A:** 每笔 BCT 交易都会自动扣除 12% 的税收，其中 5% 直接转入慈善钱包，用于支持全球公益项目。这个过程完全自动化，由智能合约执行，确保透明和高效。
+**A:** 每笔 币安慈善 交易都会自动扣除 12% 的税收，其中 5% 直接转入慈善钱包，用于支持全球公益项目。这个过程完全自动化，由智能合约执行，确保透明和高效。
 
-### Q: 如何参与 BCT 生态？
+### Q: 如何参与 币安慈善 生态？
 
 **A:** 您可以通过以下方式参与：
-1. 在 PancakeSwap 购买 BCT 代币成为持币者，享受分红
+1. 在 PancakeSwap 购买 币安慈善 代币成为持币者，享受分红
 2. 使用我们的 DApp 设置价格警报，参与交易
 3. 加入社区讨论，提出改进建议
 4. 参与 DAO 治理，投票决定慈善项目
